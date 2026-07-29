@@ -26,12 +26,68 @@ smartphone et **jouable entièrement hors ligne**.
 
 ## Jouer hors ligne
 
-**Option 1 — le fichier seul.** Télécharge `index.html` et ouvre-le : tout le jeu est
-dedans, il fonctionne sans connexion et sans installation.
+Tout le jeu tient dans `index.html` : aucune requête réseau, aucune dépendance, aucun
+compte. Deux façons de l'emporter partout.
 
-**Option 2 — installer la PWA.** Ouvre le site, puis « Ajouter à l'écran d'accueil »
-(Safari : bouton Partager ; Chrome : menu ⋮). L'application est alors mise en cache par
-`sw.js` et se lance en plein écran, même en mode avion.
+### 📱 iPhone / iPad (Safari) — recommandé
+
+1. Ouvre **https://auremoo.github.io/ptit-bac/** dans **Safari** (l'installation ne
+   fonctionne que depuis Safari, pas depuis Chrome ni depuis un lien ouvert dans
+   Instagram, WhatsApp ou Messages — si c'est le cas, fais « Ouvrir dans Safari »).
+2. Touche le bouton **Partager** (le carré avec une flèche vers le haut, en bas de
+   l'écran).
+3. Fais défiler et choisis **« Sur l'écran d'accueil »**, puis **Ajouter**.
+4. Une icône « P'tit Bac » apparaît sur ton écran d'accueil : lance-la **une fois avec
+   du réseau** pour que tout soit mis en cache.
+
+C'est fini : l'app s'ouvre ensuite en plein écran (sans barre Safari) et fonctionne en
+**mode avion, dans le métro, en voiture, à l'étranger sans data**. Les scores, les
+catégories et la manche en cours sont enregistrés sur le téléphone.
+
+> ℹ️ Sur iPhone, garde l'icône sur l'écran d'accueil : iOS peut effacer les données
+> d'un site web ordinaire après quelques semaines sans visite, mais pas celles d'une app
+> ajoutée à l'écran d'accueil.
+
+### 🤖 Android (Chrome, Edge, Samsung Internet)
+
+1. Ouvre **https://auremoo.github.io/ptit-bac/**.
+2. Une bannière **« Installer l'application »** apparaît en général en bas — accepte-la.
+   Sinon, menu **⋮** → **Installer l'application** / **Ajouter à l'écran d'accueil**.
+3. Lance l'app une fois connecté, puis joue hors ligne à volonté.
+
+### 💻 Ordinateur (Chrome, Edge)
+
+Ouvre le site, clique sur l'icône **⊕ / Installer** à droite de la barre d'adresse
+(ou menu ⋮ → *Installer P'tit Bac*). L'app s'ouvre dans sa propre fenêtre, hors ligne
+comprise. Sur Firefox et Safari macOS, l'installation n'existe pas : utilise la méthode
+« fichier seul » ci-dessous.
+
+### 💾 Sans installation : le fichier seul
+
+Récupère `index.html` (bouton **Code → Download ZIP** sur GitHub, ou
+[téléchargement direct](https://raw.githubusercontent.com/auremoo/ptit-bac/main/index.html))
+et ouvre-le d'un double-clic : le jeu fonctionne tel quel, sans réseau.
+
+- **Sur iPhone** : enregistre le fichier dans l'app **Fichiers** (iCloud Drive ou
+  « Sur mon iPhone ») et touche-le pour l'ouvrir dans Safari. Tu peux aussi l'envoyer
+  par **AirDrop** à tes amis pour jouer à plusieurs, chacun sur son téléphone.
+- **Partage hors ligne** : le fichier fait quelques dizaines de kilo-octets et se
+  transmet par AirDrop, Bluetooth, e-mail ou clé USB. C'est le jeu complet.
+- Seule différence avec la version installée : ouvert en `file://`, il reste dans
+  l'onglet du navigateur (pas d'icône ni de plein écran) et chaque copie garde ses
+  propres scores.
+
+### En cas de souci
+
+- **Rien ne s'affiche hors ligne après l'installation** : relance l'app une fois avec
+  du réseau, l'écran d'accueil doit s'afficher entièrement — c'est ce passage qui
+  remplit le cache (`sw.js`).
+- **Une mise à jour ne s'affiche pas** : ferme complètement l'app puis rouvre-la
+  connectée ; la nouvelle version est récupérée en tâche de fond et s'applique au
+  lancement suivant.
+- **Le bouton « Ajouter à l'écran d'accueil » est absent sur iPhone** : tu es en
+  navigation privée ou dans un navigateur intégré à une autre app — rouvre le lien dans
+  Safari en mode normal.
 
 ## Règles
 
