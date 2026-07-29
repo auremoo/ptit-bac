@@ -1,0 +1,48 @@
+# Dépendances
+node_modules/
+bower_components/
+vendor/
+
+# Build / sorties
+dist/
+build/
+out/
+.cache/
+.parcel-cache/
+.next/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Variables d'environnement
+.env
+.env.local
+.env.*.local
+
+# Systèmes de fichiers
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Éditeurs / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.history/
+
+# Divers
+*.tmp
+*.bak
+.claude/

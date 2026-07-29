@@ -1,0 +1,27 @@
+{
+  "name": "P'tit Bac",
+  "short_name": "P'tit Bac",
+  "description": "Le jeu du Petit Bac, optimisé pour smartphone et jouable hors ligne. Auteur : Aurélien Moote - Moo - 2026.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#12131a",
+  "theme_color": "#12131a",
+  "lang": "fr",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' fill='%23ff6b4a'/%3E%3Ctext x='256' y='366' font-family='Georgia,serif' font-size='320' font-weight='bold' text-anchor='middle' fill='%23fff'%3EB%3C/text%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' fill='%23ff6b4a'/%3E%3Ctext x='256' y='344' font-family='Georgia,serif' font-size='240' font-weight='bold' text-anchor='middle' fill='%23fff'%3EB%3C/text%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
