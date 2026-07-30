@@ -1,8 +1,11 @@
 // P'tit Bac — Auteur : Aurélien Moote - Moo - 2026 — Licence MIT
 // Service worker : met l'application en cache pour un fonctionnement 100 % hors ligne.
 
-var CACHE = 'ptitbac-v1';
-var ASSETS = ['./', './index.html', './manifest.webmanifest'];
+var CACHE = 'ptitbac-v2';
+var ASSETS = [
+  './', './index.html', './manifest.webmanifest',
+  './icon-192.png', './icon-512.png', './icon-maskable-512.png', './apple-touch-icon.png'
+];
 
 self.addEventListener('install', function (e) {
   e.waitUntil(

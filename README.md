@@ -110,6 +110,7 @@ Le dépôt se publie tel quel : dans **Settings → Pages**, choisis la source
 | `index.html` | Le jeu complet : HTML, CSS et JavaScript en un seul fichier |
 | `manifest.webmanifest` | Manifeste PWA (nom, icônes, mode plein écran) |
 | `sw.js` | Service worker : mise en cache pour le hors ligne |
+| `icon-*.png`, `apple-touch-icon.png` | Icônes de l'app (écran d'accueil iOS/Android, onglet) |
 | `.github/workflows/pages.yml` | Déploiement automatique sur GitHub Pages |
 
 ## Auteur & licence
